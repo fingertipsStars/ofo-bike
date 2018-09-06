@@ -1,0 +1,43 @@
+<!--pages/money/index.wxml-->
+<view class="container">
+  <view class="overage">
+    <view>
+      <text class="age-head">我的余额（元）</text>
+
+
+    </view>
+    <view>
+      <text class="age-content">{{money}}</text>
+
+
+    </view>
+    <view>
+      <text class="age-desc">余额说明</text>
+
+
+    </view>
+ </view>
+
+    <button class="btn-charge" bindtap="moveToCharge">充值</button>
+
+    <view class="my-ticket tapbar">
+      <text>我的用车券</text>
+      <text>{{ticket}}张></text>
+
+    </view>
+
+    <view class="my-deposit tapbar">
+      <text>我的押金</text>
+      <text><text class="color">99元押金退款></text></text>
+
+    </view>
+
+    <view class="about tapbar">
+      <text>关于ofo</text>
+      <text>></text>
+
+    </view>
+
+
+
+</view>
